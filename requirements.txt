@@ -1,0 +1,9 @@
+langchain
+langchain-community
+langchain-chroma
+langchain_huggingface
+chromadb
+rank-bm25
+python-dotenv
+ipykernel
+sentence_transformers
