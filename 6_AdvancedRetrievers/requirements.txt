@@ -1,0 +1,32 @@
+# LangChain core packages
+langchain
+langchain-core
+langchain-community
+langchain-huggingface
+# transformers>=5 dropped the text2text-generation pipeline task that
+# langchain-huggingface's HuggingFacePipeline.from_model_id relies on for seq2seq models (e.g. flan-t5)
+transformers<5
+sentence-transformers
+langchain-text-splitters
+langchain-chroma
+
+# LangGraph
+langgraph
+
+# Document loader
+pypdf
+
+# Vector store (used by retrievers)
+chromadb
+
+# Self-Query retriever requires lark for structured query parsing
+lark
+
+# Token counting for OpenAI models
+tiktoken
+
+# Environment variables
+python-dotenv
+
+# Notebook support for VS Code
+ipykernel
